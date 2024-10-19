@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boolean & if-statement</title>
+    <title>Rock-Scissors-Paper Game</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -14,67 +14,12 @@
       </div>
       <!-- Buttons -->
       <div class="btns">
-        <button
-          onclick="
-          const computerMove= pickComputerMove(); //Function Call
-
-          let result = '';
-          if (computerMove === 'Rock') {
-            result='Tie';
-          }else if (computerMove === 'Paper') {
-            result='You Lose!';
-          } else {
-            result='You Win';
-          }
-
-          // console.log(result);
-
-          alert(`You picked Rock, Computer picked ${computerMove}\nResult: ${result}.`);
-          "
-        >
-          Rock
-        </button>
-        <button
-          onclick="
-        const computerMove= pickComputerMove(); //Function Call
-
-        let result = '';
-          if (computerMove === 'Rock') {
-            result='You Win!';
-          }else if (computerMove === 'Paper') {
-            result='Tie';
-          } else {
-            result='You Lose!';
-          }
-
-          // console.log(result);
-
-          alert(`You picked Paper, Computer picked ${computerMove}\nResult: ${result}.`);
-        "
-        >
-          Paper
-        </button>
-        <button
-          onclick="
-        const computerMove= pickComputerMove(); //Function Call
-
-        let result = '';
-          if (computerMove === 'Rock') {
-            result='You Lose!';
-          }else if (computerMove === 'Paper') {
-            result='You Win!';
-          } else {
-            result='Tie';
-          }
-
-          // console.log(result);
-
-          alert(`You picked Scissors, Computer picked ${computerMove}\nResult: ${result}.`);
-        "
-        >
-          Scissors
-        </button>
+        <button class="Rock" onclick="RockL();">Rock</button>
+        <button class="Scissors" onclick="ScissorsL();">Scissors</button>
+        <button class="Paper" onclick="paperL();">Paper</button>
       </div>
+      <!-- Result -->
+      <div id="result" class="result"></div>
     </div>
     <script src="script.js"></script>
   </body>

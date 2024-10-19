@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCFCFC;
+}
+
+.container {
+  width: 40vw;
+  height: 80vh;
+  border: rgba(0, 0, 0, 0.139) 2px solid;
+  border-radius: 16px;
+  background-color: #D0CECF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Press Start 2P', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #362327;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+.Rock, .Scissors, .Paper {
+  background-color: #E07E0F;
+  width: 8vw;
+  height: 5vh;
+  border-style: none;
+  margin-top: 36px;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', system-ui;
+  font-weight: 200;
+  font-size: 10px;
+  cursor: pointer;
+  color: #362327;
+}
+
+.Rock:hover, .Scissors:hover, .Paper:hover {
+  color: #FCFCFC;
+}
+
+.result {
+  margin-top: 20px;
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 14px;
+  color: #362327;
+}
