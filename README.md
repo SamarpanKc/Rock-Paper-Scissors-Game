@@ -1,6 +1,7 @@
 # ROCK PAPER SCISSORS: The first Javascript Project
 
-## Acknowlagement
+## [Play Now](https://rock-paper-scissors-samarpankc.netlify.app/)
+
 
 ## Strategy for Development
 

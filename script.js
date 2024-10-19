@@ -25,7 +25,7 @@ function paperL() {
     result = 'Game Tie';
   }
 
-  document.getElementById('result').innerText = `You Choose > Paper\nComputer Choose > ${computerMove}\n >> ${result}`;
+  document.getElementById('result').innerText = `>> ${result}\n\n You Choose > Paper\n\nComputer Choose > ${computerMove}`;
 }
 
 function ScissorsL() {
@@ -40,7 +40,7 @@ function ScissorsL() {
     result = 'You Win';
   }
 
-  document.getElementById('result').innerText = `You Choose > Scissors\nComputer Choose > ${computerMove}\n >> ${result}`;
+  document.getElementById('result').innerText = `>> ${result}\n\nYou Choose > Scissors\n\nComputer Choose > ${computerMove} `;
 }
 
 function RockL() {
@@ -55,5 +55,5 @@ function RockL() {
     result = 'You Lose';
   }
 
-  document.getElementById('result').innerText = `You Choose > Rock\n\nComputer Choose > ${computerMove}\n\n >> ${result}`;
+  document.getElementById('result').innerText = `>> ${result}\n\n You Choose > Rock\n\nComputer Choose > ${computerMove}`;
 }
