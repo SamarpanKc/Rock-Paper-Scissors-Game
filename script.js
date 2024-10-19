@@ -70,7 +70,7 @@ function RockL() {
 function updateResults(result, computerMove, userMove) {
   console.log(`You: ${userWin}`);
   console.log(`Computer: ${computerWin}`);
-  document.getElementById('result').innerText = `>> ${result}\n\nYou Choose > ${userMove}\n\nComputer Choose > ${computerMove}\n\n\nSCORES:\n\nYou: ${userWin} | Computer: ${computerWin}`;
+  document.getElementById('result').innerText = `>> ${result}\n\nYou Choose > ${userMove}\n\nComputer Choose > ${computerMove}\n\n\n\nSCORES:\n\nYou: ${userWin} | Computer: ${computerWin}`;
   
   if (computerWin == 5) {
     document.getElementById('result').innerText = 'Computer Won';
