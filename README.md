@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game: A JavaScript Project
 
-[Play Now](https://rock-paper-scissors-samarpankc.netlify.app/)`
+[Play Now](https://rock-paper-scissors-samarpankc.netlify.app/)
 
 ## Table of Contents
 
