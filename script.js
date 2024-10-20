@@ -87,10 +87,12 @@ function updateResults(result, computerMove, userMove) {
 }
 
 
+/* function endGame(){
+  document.getElementById('result').innerText = 'Game Over';
+  document.getElementById('comScr').innerText = '0';
+  document.getElementById('youScr').innerText = '0';
+  userWin = 0;
+  computerWin = 0;
+} */
 
-// function endGame() {
-//   if (userWin == 5){
-//     console.log("You Win");
-//     userWin = 0;
-//   }
-// }
+
