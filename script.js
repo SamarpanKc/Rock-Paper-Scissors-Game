@@ -68,14 +68,17 @@ function RockL() {
 }
 
 function updateResults(result, computerMove, userMove) {
-  console.log(`You: ${userWin}`);
-  console.log(`Computer: ${computerWin}`);
-  document.getElementById('result').innerText = `>> ${result}\n\nYou Choose > ${userMove}\n\nComputer Choose > ${computerMove}\n\n\n\nSCORES:\n\nYou: ${userWin} | Computer: ${computerWin}`;
+  // console.log(`You: ${userWin}`);
+  // console.log(`Computer: ${computerWin}`);
+  document.getElementById('result').innerText = `\nComputer Choose ${computerMove} \n\n ${result}\n\n`;
+  document.getElementById('comScr').innerText = `${computerWin}`;
+  document.getElementById('youScr').innerText = `${userWin}`;
   
   if (computerWin == 5) {
     document.getElementById('result').innerText = 'Computer Won';
     userWin = 0; // Reset user wins
     computerWin = 0; // Reset computer wins
+    
   } else if (userWin == 5) {
     document.getElementById('result').innerText = 'You Won';
     userWin = 0; // Reset user wins
@@ -85,9 +88,9 @@ function updateResults(result, computerMove, userMove) {
 
 
 
-function endGame() {
-  if (userWin == 5){
-    console.log("You Win");
-    userWin = 0;
-  }
-}
+// function endGame() {
+//   if (userWin == 5){
+//     console.log("You Win");
+//     userWin = 0;
+//   }
+// }

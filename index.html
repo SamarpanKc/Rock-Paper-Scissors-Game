@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock-Scissors-Paper Game</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <!-- title  -->
-      <div class="title">
-        <h2>ROCK PAPER SCISSORS</h2>
-        <h5>Choose Your Desire Element</h5>
-      </div>
-      <!-- Buttons -->
-      <div class="btns">
-        <button class="Rock" onclick="RockL();">Rock</button>
-        <button class="Paper" onclick="paperL();">Paper</button>
-        <button class="Scissors" onclick="ScissorsL();">Scissors</button>
-      </div>
-      <!-- Result -->
-      <div id="result" class="result"></div>
-      <!-- Scores -->
-       <!-- <div class="scores">
-        <h4>Total Scores</h4>
 
-       </div> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock-Scissors-Paper Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- title  -->
+    <div class="title">
+      <h2>ROCK PAPER SCISSORS</h2>
+      <h5>Choose Your Desire Element</h5>
     </div>
+    <!-- Buttons -->
+    <div class="btns">
+      <button class="Rock" onclick="RockL();">Rock</button>
+      <button class="Paper" onclick="paperL();">Paper</button>
+      <button class="Scissors" onclick="ScissorsL();">Scissors</button>
+    </div>
+    <!-- Result -->
+    <div id="result" class="result"></div>
+    <!-- Scores -->
+    <div class="scores">
+      <h4>Total Scores</h4>
+      <div class="scrLi">
+        <h5 class="You">You</h5>
+        <h5 class="Computer">Computer</h5>
+      </div>
+      <div class="scrNum">
+        <div id="youScr"></div>
+        <div id="comScr"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
 
-    <script src="script.js"></script>
-  </body>
 </html>

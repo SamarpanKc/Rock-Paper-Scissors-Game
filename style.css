@@ -65,6 +65,25 @@ body {
     color: #FCFCFC;
 }
 
+.scores h4{
+    color: #001011;
+    text-align: center;
+}
+
+.scores .scrLi, .scrNum{
+    color: #001011;
+    display: flex;
+    flex-direction: row;
+    gap: 118px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.scores .scrNum{
+    gap: 198px;
+    text-align: center;
+}
+
 .result {
     margin-top: 26px;
     font-family: 'Press Start 2P', system-ui;
